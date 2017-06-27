@@ -1,0 +1,22 @@
+{
+  "name": "bn-webskjema",
+  "version": "1.0.0",
+  "description": "Enkelt webskjema for bane-nor",
+  "main": "index.js",
+  "scripts": {
+    "test": "runtests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bensteria/bn-webskjema.git"
+  },
+  "keywords": [
+    "Node"
+  ],
+  "author": "Bendik Ibenholt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bensteria/bn-webskjema/issues"
+  },
+  "homepage": "https://github.com/bensteria/bn-webskjema#readme"
+}
