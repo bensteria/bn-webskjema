@@ -3,13 +3,10 @@
   "version": "1.0.0",
   "description": "Enkelt webskjema for bane-nor",
   "main": "index.js",
-
   "scripts": {
     "start": "node index.js",
-    "test": "runtests",
-    "postinstall": "ng build --aot -prod"
+    "test": "runtests"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bensteria/bn-webskjema.git"
@@ -26,8 +23,8 @@
   "dependencies": {
     "express": "^4.15.3",
     "@angular/compiler-cli": "^4.2.4",
-    "@angular/cli":"1.1.3",
-    "@angular/core":"4.2.4"
+    "@angular/cli": "1.1.3",
+    "@angular/core": "4.2.4"
   },
   "engines": {
     "node": "6.9.2",
