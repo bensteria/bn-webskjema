@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "Enkelt webskjema for bane-nor",
   "main": "index.js",
+
   "scripts": {
+    "start": "node index.js",
     "test": "runtests"
   },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bensteria/bn-webskjema.git"
