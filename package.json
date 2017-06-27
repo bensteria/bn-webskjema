@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/bensteria/bn-webskjema/issues"
   },
-  "homepage": "https://github.com/bensteria/bn-webskjema#readme"
+  "homepage": "https://github.com/bensteria/bn-webskjema#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
 }
