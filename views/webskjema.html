@@ -9,48 +9,46 @@
 </head>
 
 <body>
-<style>
-.demo-layout-transparent {
-  background: url('../assets/images/banenorlogo.png') center / cover;
-}
-.demo-layout-transparent .mdl-layout__header,
-.demo-layout-transparent .mdl-layout__drawer-button {
-  /* This background is dark, so we set text to white. Use 87% black instead if
-     your background is light. */
-  color: black;
-}
-</style>
-
-<div class="demo-layout-transparent mdl-layout mdl-js-layout">
-    <header class="mdl-layout__header mdl-layout__header--transparent">
-        <div class="mdl-layout__header-row">
-            <!-- Title -->
-            <span class="mdl-layout-title">Title</span>
-            <!-- Add spacer, to align navigation to the right -->
-            <div class="mdl-layout-spacer"></div>
-            <!-- Navigation -->
-            <nav class="mdl-navigation">
-                <a class="mdl-navigation__link" href="">Link</a>
-                <a class="mdl-navigation__link" href="">Link</a>
-                <a class="mdl-navigation__link" href="">Link</a>
-                <a class="mdl-navigation__link" href="">Link</a>
-            </nav>
-        </div>
-    </header>
-    <div class="mdl-layout__drawer">
-        <span class="mdl-layout-title">Title</span>
-        <nav class="mdl-navigation">
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+<header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <span class="mdl-layout-title">Bane NOR Byggskjema</span>
+        <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer"></div>
+        <!-- Navigation. We hide it in small screens. -->
+        <nav class="mdl-navigation mdl-layout--large-screen-only">
             <a class="mdl-navigation__link" href="">Link</a>
             <a class="mdl-navigation__link" href="">Link</a>
             <a class="mdl-navigation__link" href="">Link</a>
             <a class="mdl-navigation__link" href="">Link</a>
         </nav>
     </div>
-    <main class="mdl-layout__content">
-    </main>
+</header>
+<div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Title</span>
+    <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+    </nav>
 </div>
-    <h3>Bane-nor byggliste</h3>
-
+<main class="mdl-layout__content">
+    <div class="page-content"><!-- Your content goes here --></div>
+</main>
+</div>
+<ul class='mdl-list'>
+<li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content"></span>
+</li>
+<li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content"></span>
+</li>
+<li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content"></span>
+</li>
+</ul>
     <input type="text" title="Id" placeholder="Id">
     <input type="text" title="Linje" placeholder="Linje">
     <input type="text" title="Distrikt" placeholder="Distrikt">
@@ -62,6 +60,5 @@
     <input type="text" title="Bygg" placeholder="Bygg">
     <input type="text" title="Byggnavn" placeholder="Byggnavn">
     <input type="text" title="Merknad" placeholder="Merknad">
-
 </body>
 </html>
