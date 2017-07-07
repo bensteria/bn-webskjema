@@ -1,7 +1,10 @@
 .mdl-grid.center-items {
   justify-content: center;
 }
-
+.page-content>.mdl-list{
+    width: 100%;
+    max-width: 700px;}
+    
 .mdl-expansion {
 
   border-bottom: 1px solid rgba(0, 0, 0, .12);
